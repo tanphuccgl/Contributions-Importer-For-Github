@@ -2,8 +2,12 @@
 import git
 from git_contributions_importer import *
 
-# Your private repo or Bitbucket repo
-repo = git.Repo("/Users/levi2k/Desktop/imagelocal/school-tab")
+# Your private repo or Bitbucket repo -  pwd    
+# grammarcheck-release
+# obd-ii
+# castcar
+# CastCarPlay
+repo = git.Repo("/Users/levi2k/Working/CastCarPlay")
 # Your mock repo
 mock_repo = git.Repo("/Users/levi2k/Working/Bitbucket-Contributions")
 importer = Importer([repo], mock_repo)
